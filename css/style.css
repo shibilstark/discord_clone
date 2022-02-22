@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+section#home {
+  background-color: #4456ed;
+  height: 615px;
+}
+
+section#home main.header {
+  height: 60px;
+  width: 60%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#home main.header div.logo {
+  margin-top: auto;
+  width: 25%;
+}
+
+section#home main.header div.logo a img {
+  width: 130px;
+}
+
+section#home main.header div.navigations {
+  width: 50%;
+}
+
+section#home main.header div.navigations ul {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section#home main.header div.navigations ul li {
+  margin-top: auto;
+  text-align: center;
+}
+
+section#home main.header div.navigations ul li :hover {
+  -webkit-text-decoration: underline 1px solid #fff;
+          text-decoration: underline 1px solid #fff;
+}
+
+section#home main.header div.navigations ul li a {
+  font-size: 16px;
+  font-weight: 550;
+  color: #fff;
+}
+
+section#home main.header div.login {
+  width: 25%;
+  text-align: end;
+  margin-top: auto;
+}
+
+section#home main.header div.login a :hover {
+  color: #5865F2;
+  -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+          box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+section#home main.header div.login a button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  background: #fff;
+  font-weight: 900;
+}
+
+section#home main.spotlight {
+  overflow: hidden;
+  height: 90%;
+}
+
+section#home main.spotlight img.cloud {
+  position: relative;
+  bottom: 73px;
+  right: 325px;
+}
+
+section#home main.spotlight img.chick {
+  position: relative;
+  bottom: 437px;
+  right: 700px;
+}
+
+section#home main.spotlight img.table {
+  position: relative;
+  bottom: 437px;
+  left: 1300px;
+}
+
+section#home main.spotlight h1 {
+  position: relative;
+  bottom: 850px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+section#home main.spotlight h3 {
+  font-family: sans-serif;
+  line-height: 1.8rem;
+  position: relative;
+  bottom: 820px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+section#home main.spotlight div.download_options {
+  position: relative;
+  bottom: 780px;
+  text-align: center;
+}
+
+section#home main.spotlight div.download_options a {
+  margin: 15px;
+}
+
+section#home main.spotlight div.download_options a :hover {
+  color: #5865F2;
+  -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+          box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+section#home main.spotlight div.download_options a button {
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+section#home main.spotlight div.download_options a button.dark {
+  background-color: #23272A;
+  color: #fff;
+}
+
+section#groups, section#community,
+section#voice_chat {
+  background-color: #fff;
+  height: 615px;
+}
+
+section#groups div, section#community div,
+section#voice_chat div {
+  margin: auto;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section#groups div span, section#community div span,
+section#voice_chat div span {
+  margin-top: 115px;
+}
+
+section#groups div span.content, section#community div span.content,
+section#voice_chat div span.content {
+  margin-top: 135px;
+}
+
+section#groups div span.content h2, section#community div span.content h2,
+section#voice_chat div span.content h2 {
+  font-size: 48px;
+  font-weight: 1300;
+}
+
+section#groups div span.content h4, section#community div span.content h4,
+section#voice_chat div span.content h4 {
+  font-size: 19px;
+  font-weight: lighter;
+  margin-top: 30px;
+  line-height: 1.8rem;
+  color: #232731;
+}
+
+section#voice_chat {
+  background-color: #F6F6F6;
+}
+
+section#main_download {
+  background-color: #F6F6F6;
+  margin-top: 100px;
+  text-align: center;
+}
+
+section#main_download div {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+section#main_download div h2 {
+  padding-top: 100px;
+  font-size: 55px;
+  font-weight: 1000;
+}
+
+section#main_download div h3 {
+  line-height: 1.8rem;
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: lighter;
+  color: #232731;
+}
+
+section#main_download div img.big {
+  width: 1200px;
+}
+
+section#main_download div div.download_spot h3 {
+  position: relative;
+  font-size: 34px;
+  font-weight: 900;
+  bottom: 40px;
+}
+
+section#main_download div div.download_spot a :hover {
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+          box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+section#main_download div div.download_spot a button {
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #5865F2;
+  color: #fff;
+  padding: 15px 30px;
+  margin-bottom: 100px;
+}
+
+section#footer {
+  background-color: #232731;
+  height: 580px;
+}
+
+section#footer div.container {
+  border-bottom: 2px solid #5865F2;
+  height: 350px;
+  padding-top: 100px;
+  width: 65%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section#footer div.container span.main_span {
+  width: 300px;
+}
+
+section#footer div.container span.main_span h2 {
+  font-size: 35px;
+  font-weight: 1000;
+  color: #5865F2;
+}
+
+section#footer div.container span.main_span a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+section#footer div.container span.main_span a img.flag {
+  width: 20px;
+  height: 20px;
+}
+
+section#footer div.container span.main_span a h6 {
+  font-size: 10px;
+  margin: auto 0;
+  color: #fff;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+section#footer div.container span.main_span a img.arrow {
+  width: 7px;
+  height: 7px;
+  margin: 8px 8px;
+}
+
+section#footer div.container span.main_span div.connections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+section#footer div.container span.main_span div.connections i {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+section#footer div.container span.common ul li {
+  color: #5865F2;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+section#footer div.container span.common ul li :hover {
+  -webkit-text-decoration: underline 1px solid #fff;
+          text-decoration: underline 1px solid #fff;
+}
+
+section#footer div.container span.common ul li a {
+  margin-top: 20px;
+  color: #fff;
+}
+
+section#footer div.container span.common ul li.heading :hover {
+  text-decoration: none;
+}
+
+section#footer div.foot {
+  width: 65%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+section#footer div.foot img {
+  width: 120px;
+}
+
+section#footer div.foot a :hover {
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+          box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+section#footer div.foot a button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  background: #5865F2;
+  color: #fff;
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
